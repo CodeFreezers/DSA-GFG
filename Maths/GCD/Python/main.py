@@ -16,7 +16,7 @@ def gcd(a,b):
   if b==0:
     return a
   else:
-    return gcd(b,a%b)
+    return gcd(b,int(a%b))
 
 print(gcd(12,36))
   
