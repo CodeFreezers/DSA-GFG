@@ -1,0 +1,4 @@
+Given a string s print all the subsets of it (in any order)
+
+i/p: "ABC"
+o/p: "", "A", "B", "C", "AB", "AC", "BC", "ABC"
