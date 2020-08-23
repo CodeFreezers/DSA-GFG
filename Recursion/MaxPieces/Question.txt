@@ -1,0 +1,1 @@
+given a rope of length n , you need to find the maximum number of pieces you can make such that the length of every piece is in set {a, b, c} for the given three values a, b, c
