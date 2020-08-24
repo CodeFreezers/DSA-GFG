@@ -20,3 +20,13 @@ def helperFunc(n, k, a, idx):
 
 print(josp(7, 3))
 print(josp(5, 3))
+
+#2 simple solution
+def josp(n, k):
+  if n == 1:
+    return 0
+  else:
+    return (josp(n-1, k) + k) % n
+
+print(josp(7,3))
+print(josp(5,2))
