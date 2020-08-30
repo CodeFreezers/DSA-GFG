@@ -1,8 +1,6 @@
 #1
 def CheckIfArrayIsSorted(arr : list) -> bool:
-  if len(arr) == 0 :
-    return False
-  if len(arr) == 1 :
+  if len(arr) <= 1 :
     return True
   for i in range(1,len(arr)):
     if arr[i] < arr[i-1]:
