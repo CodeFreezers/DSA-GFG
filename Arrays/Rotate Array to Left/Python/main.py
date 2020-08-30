@@ -12,3 +12,16 @@ def rotateLeft(arr: list, n: int) -> list:
     return arr
 
 print(rotateLeft([1,2,3,4,5,6],3))
+
+#2 efficient
+def rotateLeft(arr: list, n: int) -> list:
+  if len(arr) <= 1:
+    return arr
+  else:
+    temp=arr[0:n]
+    arr=arr[n:]
+    arr.extend(temp)
+    return arr
+
+
+print(rotateLeft([1,2,3,4,5,6],3))
