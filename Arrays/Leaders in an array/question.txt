@@ -1,0 +1,3 @@
+find leaders in the array .
+
+- an element is considered as a leader if there exist no element to its right which is greater than it
